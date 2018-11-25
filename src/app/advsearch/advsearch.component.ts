@@ -18,6 +18,7 @@ export class AdvsearchComponent implements OnInit {
   isCollapsed = true;
   pouet: boolean;
   searchtxt: String;
+  page = 1;
 
   constructor(private service: ProduitService) { }
 

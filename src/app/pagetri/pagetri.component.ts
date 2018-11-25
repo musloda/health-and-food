@@ -12,12 +12,13 @@ import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 export class PagetriComponent implements OnInit {
 
   tab: Produit[];
-  tabTri: Produit[];
+  tabTri: any;
   page = 1;
   title: string;
   produit: Produit;
   produits: Produit[];
   closeResult: string;
+
 
   constructor(private produitservice: ProduitService, public loginService: LoginService, private modalService: NgbModal) { }
 

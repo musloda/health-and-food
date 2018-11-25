@@ -10,74 +10,74 @@ const products = [
     ],
     'categories': [
       'Plats préparés',
-      "Plats à base de viande",
-      "Plats à base de viande bovine",
-      "Hachis parmentier",
-      "Gamme famille picard",
-      "Hachis parmentier surgelé"
+      'Plats à base de viande',
+      'Plats à base de viande bovine',
+      'Hachis parmentier',
+      'Gamme famille picard',
+      'Hachis parmentier surgelé'
     ],
-    "labels": [
-      "Viande Française",
-      "Viande Bovine Française"
+    'labels': [
+      'Viande Française',
+      'Viande Bovine Française'
     ],
-    "country": "France",
-    "ingredients": "Pomme de terre 42,9%, viande bovine 25,1% (origine : France*), eau, crème fraiche légère liquide (lait) 3,9%, chapelures 2,9% [farine de blé (gluten), sel, levure], oignon, fécule de pomme de terre, emmental français râpé 0,7% (contient : lait), purée de tomate double concentrée, beurre (lait), carotte, sel, ail, poireau, persil, oignon en poudre, thym, poivre, plantes aromatiques (persil, laurier, thym), curcuma, muscade.",
-    "allergenes": [
-      "Gluten",
-      "lait"
+    'country': 'France',
+    'ingredients': 'Pomme de terre 42,9%, viande bovine 25,1% (origine : France*), eau, crème fraiche légère liquide (lait) 3,9%, chapelures 2,9% [farine de blé (gluten), sel, levure], oignon, fécule de pomme de terre, emmental français râpé 0,7% (contient : lait), purée de tomate double concentrée, beurre (lait), carotte, sel, ail, poireau, persil, oignon en poudre, thym, poivre, plantes aromatiques (persil, laurier, thym), curcuma, muscade.',
+    'allergenes': [
+      'Gluten',
+      'lait'
     ],
-    "nova": 3,
-    "nutriscore": "B",
-    "nutritional_value": {
-      "energy": "108", // kcal
-      "lipides": "4.7",// g
-      "saturated_fat": "2.5",// g
-      "glucides": "9.8",// g
-      "sugar": "0.4",// g
-      "fibres_alimentaires": "0.8",// g
-      "proteines": "6.5",// g
-      "salt": "0.5",// g
-      "sodium": "0.197" // g
+    'nova': 3,
+    'nutriscore': 'B',
+    'nutritional_value': {
+      'energy': '108', // kcal
+      'lipides': '4.7',// g
+      'saturated_fat': '2.5',// g
+      'glucides': '9.8',// g
+      'sugar': '0.4',// g
+      'fibres_alimentaires': '0.8',// g
+      'proteines': '6.5',// g
+      'salt': '0.5',// g
+      'sodium': '0.197' // g
     },
-    "image": "https://static.openfoodfacts.org/images/products/327/016/022/7495/front_fr.23.400.jpg",
-    "keywords": [
-      "hachis",
-      "parmentier",
-      "surgelé",
-      "boeuf",
+    'image': 'https://static.openfoodfacts.org/images/products/327/016/022/7495/front_fr.23.400.jpg',
+    'keywords': [
+      'hachis',
+      'parmentier',
+      'surgelé',
+      'boeuf',
     ],
   },
 
   // Produit 2
 
   {
-    "id": '2',
-    "product_name": "Emietté de sardine - douceur des bastides",
-    "brand": "La Belle-Iloise",
-    "quantity": "80g",
-    "packaging": [
-      "conserve",
+    'id': '2',
+    'product_name': 'Emietté de sardine - douceur des bastides',
+    'brand': 'La Belle-Iloise',
+    'quantity': '80g',
+    'packaging': [
+      'conserve',
     ],
-    "categories": [
-      "Conserves",
-      "Produits de la mer",
-      "Poissons",
-      "Poissons en conserve",
-      "Sardines",
-      "Sardines en conserve",
-      "Sardines à l'huile",
-      "Sardines à l'huile d'olive"
+    'categories': [
+      'Conserves',
+      'Produits de la mer',
+      'Poissons',
+      'Poissons en conserve',
+      'Sardines',
+      'Sardines en conserve',
+      'Sardines à l\'huile',
+      'Sardines à l\'huile d\'olive'
     ],
-    "labels": [],
-    "country": "France",
-    "ingredients": "Filets de sardines (39,6%), huile d'olive vierge extra, fenouil (14,9%), oignons (9,3%), jus de citron, tomates (2,9%), tomates mi-séchées (2,8%), oignons rissolés (2,4%), fécule de manioc, ail, plantes aromatiques (0,9%), sel, badiane, épices.",
-    "allergenes": [
-      "Poisson",
+    'labels': [],
+    'country': 'France',
+    'ingredients': 'Filets de sardines (39,6%), huile d\'olive vierge extra, fenouil (14,9%), oignons (9,3%), jus de citron, tomates (2,9%), tomates mi-séchées (2,8%), oignons rissolés (2,4%), fécule de manioc, ail, plantes aromatiques (0,9%), sel, badiane, épices.',
+    'allergenes': [
+      'Poisson',
     ],
-    "nova": 3,
-    "nutriscore": "B",
-    "nutritional_value": {
-      "energy": '234',
+    'nova': 3,
+    'nutriscore': 'B',
+    'nutritional_value': {
+      'energy': '234',
       'lipides': '18.9',
       'saturated_fat': '3.18',
       'glucides': '3.2',

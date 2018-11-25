@@ -11,6 +11,7 @@ export class HeaderComponent implements OnInit {
   password: string;
   result;
   search: any;
+  isCollapsed: any;
 
   constructor(public router: Router, public loginService: LoginService) { }
 
