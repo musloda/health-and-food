@@ -1,0 +1,23 @@
+nav {
+  display:flex;
+  background-color: rgba(255,255,255, 0.3);
+  box-shadow: 1px 2px 4px #2874f0;
+}
+.menu {
+  float: right;
+}
+.Rav {
+  margin-left: 1%;
+}
+.logoheader {
+  height: 30px;
+  width: 30px
+}
+.logoheader2 {
+  height: 20px;
+  width: 20px;
+}
+.logoheader3 {
+  height: 30px;
+  width: 30px;
+}

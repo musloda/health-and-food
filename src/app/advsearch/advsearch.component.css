@@ -1,0 +1,22 @@
+
+#body{
+  font-family: 'Poppins';
+  background: no-repeat;
+  background-image: url(../../assets/Images/advrecherche_icons/back.jpeg);
+  background-size: 100%;
+  min-height: 115vh;
+}
+
+.btnR, .btnC, .marques, .condi, .aller{
+  margin: 10px;
+}
+
+.drap{
+  height: 50px;
+  width: 50px;
+}
+
+h5{
+  color: #414073;
+}
+

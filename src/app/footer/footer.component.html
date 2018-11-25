@@ -1,0 +1,67 @@
+<footer>
+    <div class='container-fluid'>
+      <div class='row d-flex justify-content-around'>
+        <div>
+          <figure class="figure">
+            <figcaption class="figcaption">
+                <p>Suivez-nous sur nos réseaux sociaux !</p>
+            </figcaption>
+            <div class='d-flex justify-content-around'>
+              <a href='#'><img src='../../assets/Images/images_footer/logo facebook.png' class="logo" alt='#'></a>
+              <a href="#"><img src='../../assets/Images/images_footer/logo twitter.png' class="logo" alt='#'></a>
+            </div>
+          </figure>
+        </div>
+        <div class="align-self-center">
+            <a (click)="open(content)"><img src='../../assets/Images/images_footer/Messagerie.png' class="logo" alt='#'></a>
+        </div>
+        <ng-template #content let-modal>
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Pour nous contacter</h5>
+              <button type="button" class="close" (click)="modal.dismiss('erreur modal dismiss')" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="email">
+                <h6>Votre Email</h6>
+                <input type="text" [(ngModel)]="media.email" #email="ngModel" id="iemail" required email />
+                <small *ngIf="email.invalid">Email requis au format : robert@randomfournisseur.outuveux</small>
+              </div>
+              <div id="objet">
+                <h6>Votre objet</h6>
+                <input type="text" [(ngModel)]="media.obj" id="iobjet" #objet="ngModel" required />
+                <small *ngIf="objet.invalid">Veuillez préciser l'objet de votre message</small>
+              </div>
+              <div id="message">
+                <h6>Votre message</h6>
+                <textarea rows="3" [(ngModel)]="media.msg" #msg="ngModel" required></textarea>
+                <small *ngIf="msg.invalid">Allez-y, lachez-vous !</small>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" (click)="modal.dismiss('erreur modal dismiss')">Close</button>
+              <button type="button" class="btn btn-primary" (click)="modal.close(mediaInput)" (click)="envoi()">Envoyer</button>
+            </div>
+          </div>
+        </ng-template>
+        <div>
+          <figure class="figure">
+            <figcaption class="figcaption">
+              <p>Suivez-nous sur nos réseaux sociaux !</p>
+            </figcaption>
+            <div class='d-flex justify-content-around'>
+              <a href='#'><img src='../../assets/Images/images_footer/logo instagram.png' class="logo" alt='#'></a>
+              <a href='#'><img src='../../assets/Images/images_footer/linkedin-icon.png' class="logo" alt='#'></a>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class='row d-flex justify-content-center'>
+        <div>
+            <p class="text-center mt-3">Copyright @2018 | Designed by <a href="https://wildcodeschool.fr/tours/" target="_blank">Wild Code School Tours</a></p>
+        </div>
+      </div>
+    </div>
+</footer>

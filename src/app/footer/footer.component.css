@@ -1,0 +1,34 @@
+
+.logo {
+height: 50px;
+width: 50px;
+}
+footer {
+  background-color: #007b5e;
+  font-family: 'Poppins';
+}
+p {
+  color: beige;
+}
+a {
+  color: beige;
+  text-decoration: underline;
+}
+#objet {
+  margin-top: 10px;
+  }
+#message {
+  margin-top: 10px;
+}
+#iemail {
+  width: 100%;
+}
+#iobjet {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+}
+.modal-content {
+  background-image: url(../../assets/Images/images_footer/fondfooter.jpeg);
+}
