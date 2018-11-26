@@ -2,7 +2,7 @@
 #body{
   font-family: 'Poppins';
   background: no-repeat;
-  background-image: url(../../../docs/assets/Images/advrecherche_icons/back.jpeg);
+  background-image: url(../../assets/Images/advrecherche_icons/back.jpeg);
   background-size: 100%;
   min-height: 115vh;
 }
