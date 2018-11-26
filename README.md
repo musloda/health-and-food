@@ -1,27 +1,31 @@
-# ProjetOpen
+![alt text](https://i.ytimg.com/vi/lcno0yGvP7o/maxresdefault.jpg "Wild Code School")
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+([Wild Code School Tours](https://wildcodeschool.fr/tours/))
 
-## Development server
+# Health & Food
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description 
 
-## Code scaffolding
+Dans le cadre de notre formation à la Wild Code School et afin de réaliser notre deuxième projet
+nous étions amenés à créer un sité web avec les caractéristiques suivantes :
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Collaborer dans une équipe de 4 personnes.
+2. Utiliser le Local Storage.
+3. Utiliser l'API OpenFood.
+4. Utiliser HTML, CSS, Bootstrap, JAVASCRIPT & ANGILAR.
+5. Utilistation de Git & Github.
 
-## Build
+_________________________________________________________________________________________________________________________________
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+As part of our training at the Wild Code School, and to create our second project,
+we were to develop a website that met the following requirements:
 
-## Running unit tests
+1. Collaborate in a team of 4 people.
+2. Use the Local Storage.
+3. Use the OpenFood API.
+4. Use HTML, CSS, Bootstrap, JAVASCRIPT & ANGILAR.
+5. Use of Git & Github.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Auteurs / Authors
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Code : Johanne, Mustapha, Killian, Pierre Hugo.
